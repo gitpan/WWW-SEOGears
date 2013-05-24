@@ -16,7 +16,7 @@ name: WWW-SEOGears
 provides:
   WWW::SEOGears:
     file: lib/WWW/SEOGears.pm
-    version: 0.02
+    version: 0.03
 requires:
   Date::Calc: 0
   HTTP::Request: 0
@@ -26,4 +26,5 @@ requires:
   URI::Escape: 0
 resources:
   license: http://opensource.org/licenses/artistic-license-2.0.php
-version: 0.02
+  repository: https://github.com/ryeddula/www-seogears
+version: 0.03

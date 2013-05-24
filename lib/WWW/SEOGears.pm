@@ -24,7 +24,7 @@ Version 0.02
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 ## no critic (ProhibitConstantPragma)
 use constant VALID_MONTHS => {
@@ -390,7 +390,7 @@ sub _make_request_handler {
 	my $params = shift;
 
 	## no critic (EmptyQuotes)
-	my $uri    = $self->_get_apiurl($action) or return ('', $self->get_error, 1);
+	my $uri    = $self->_get_apiurl($action) or return $self->_error($self->get_error, 1);
 	$uri      .= _stringify_params($params);
 	## use critic
 
