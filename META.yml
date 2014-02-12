@@ -7,7 +7,7 @@ build_requires:
 configure_requires:
   Module::Build: 0
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.131560'
+generated_by: 'Module::Build version 0.4203, CPAN::Meta::Converter version 2.132140'
 license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -16,7 +16,7 @@ name: WWW-SEOGears
 provides:
   WWW::SEOGears:
     file: lib/WWW/SEOGears.pm
-    version: 0.04
+    version: 0.05
 requires:
   Date::Calc: 0
   HTTP::Tiny: 0.029
@@ -26,4 +26,4 @@ requires:
 resources:
   license: http://www.perlfoundation.org/artistic_license_2_0
   repository: https://github.com/ryeddula/www-seogears
-version: 0.04
+version: 0.05
